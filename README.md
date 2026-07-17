@@ -1,4 +1,5 @@
 # Secure PHP Authentication Starter
+[![PHP Syntax Check](https://github.com/goitsemangmajaga/secure-php-auth-starter/actions/workflows/php-lint.yml/badge.svg)](https://github.com/goitsemangmajaga/secure-php-auth-starter/actions/workflows/php-lint.yml)
 
 A lightweight, security-focused PHP 8 and MySQL authentication starter created by [Goitsemang Majaga](https://github.com/goitsemangmajaga).
 
