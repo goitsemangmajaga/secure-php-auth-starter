@@ -67,4 +67,11 @@ dl { display: grid; gap: 1rem; margin-top: 2rem; }
 dl div { padding: 1rem; border-radius: 12px; background: var(--panel-soft); }
 dt { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; }
 dd { margin: .35rem 0 0; font-weight: 700; }
-
+.developer-credit {
+    margin: 1.25rem 0 0;
+    color: #7890ad;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.04em;
+}

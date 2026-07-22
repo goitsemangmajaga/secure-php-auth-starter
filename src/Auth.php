@@ -60,7 +60,7 @@ final class Auth
     {
         if (!$this->check()) {
             flash('error', 'Please sign in to continue.');
-            redirect('/index.php');
+            redirect('index.php');
         }
     }
 

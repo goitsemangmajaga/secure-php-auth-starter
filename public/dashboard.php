@@ -11,13 +11,13 @@ $user = $auth->user();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Protected Dashboard</title>
-    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
 <main class="dashboard-shell">
     <nav class="topbar">
         <strong>Secure PHP Auth</strong>
-        <form method="post" action="/logout.php">
+        <form method="post" action="logout.php">
             <?= $csrf->field() ?>
             <button class="button-secondary" type="submit">Sign out</button>
         </form>

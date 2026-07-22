@@ -9,5 +9,5 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST' || !$csrf->validate($_POST['csrf_token
 }
 
 $auth->logout();
-redirect('/index.php');
+redirect('index.php');
 
